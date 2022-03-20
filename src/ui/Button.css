@@ -1,0 +1,26 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 30px;
+    
+    background-color:black;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    transition: all 0.3s;
+    position: relative;
+  
+    text-align: center;
+    overflow: hidden;
+  
+    border-radius: 5px;
+    box-shadow: 0 6px 30px -10px rgba(#CCCCCC, 1);
+    
+  }
+  .btn:hover {
+    background: white;
+    color: black;
+  }
